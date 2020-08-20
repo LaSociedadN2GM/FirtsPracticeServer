@@ -1,0 +1,26 @@
+extends layout
+
+block layout-content
+    div.login
+        div.login-header
+            h1 LOGIN
+        div.login-form
+            h3 UserName:
+            input(  type='text' placeholder="Username")
+            |
+            |
+            h3 Pasword:
+            input(  type='text' placeholder="pasword")
+            |
+            |
+            input(  type='button' value="Login" class="login-button")
+            |
+            |
+            .sign-up
+            p Sign Up!
+            h6.no-access Can't access your acount?
+        div.error-page
+            div.try-again 
+             p  Error:TRY AGAIN?           
+    
+
